@@ -14,9 +14,18 @@ color: white;
     color: white;
     height: 50vh;
     }
+    .slide4{
+        background: url("../IP3-master/assets/backgrounds/c_image.jpg") center center/cover no-repeat;
+        text-align: center;
+        color: white;
+        height: 50vh;
+        }
 .PORTFOLIO{
     padding:0 40px;
 }
 .PORTFOLIO img{
     margin-top: 40px;
+}
+.Services{
+    padding-top: 110px;
 }
