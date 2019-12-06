@@ -1,31 +1,36 @@
+.slide1 {
+    background: url("../IP3-master/assets/backgrounds/h_img.jpg") center center/cover no-repeat;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
 
-.slide1{
-background: url("../IP3-master/assets/backgrounds/h_img.jpg") center center/cover no-repeat;
-height: 100vh;
-text-align: center;
-color: white;
+.welcome {
+    padding-top: 300px;
 }
-.welcome{
-   padding-top: 300px ;
-}
-.slide3{
+
+.slide3 {
     background: url("../IP3-master/assets/backgrounds/s_image.jpg") center center/cover no-repeat;
     text-align: center;
     color: white;
     height: 50vh;
-    }
-    .slide4{
-        background: url("../IP3-master/assets/backgrounds/c_image.jpg") center center/cover no-repeat;
-        text-align: center;
-        color: white;
-        height: 50vh;
-        }
-.PORTFOLIO{
-    padding:0 40px;
 }
-.PORTFOLIO img{
+
+.slide4 {
+    background: url("../IP3-master/assets/backgrounds/c_image.jpg") center center/cover no-repeat;
+    text-align: center;
+    color: white;
+    height: 50vh;
+}
+
+.PORTFOLIO {
+    padding: 0 40px;
+}
+
+.PORTFOLIO img {
     margin-top: 40px;
 }
-.Services{
+
+.Services {
     padding-top: 110px;
 }
