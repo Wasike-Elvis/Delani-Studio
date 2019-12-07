@@ -20,7 +20,8 @@
     background: url("../IP3-master/assets/backgrounds/c_image.jpg") center center/cover no-repeat;
     text-align: center;
     color: white;
-    height: 50vh;
+    height: 100vh;
+    padding-top: 50px;
 }
 
 .PORTFOLIO {
@@ -39,4 +40,10 @@
 }
 .SOCIALMEDIA{
     margin-left: 280px;
+}
+input{
+    width: 350px;
+}
+textarea{
+    width: 700px;
 }
