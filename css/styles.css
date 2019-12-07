@@ -1,3 +1,5 @@
+@IMPORT url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
 .slide1 {
     background: url("../IP3-master/assets/backgrounds/h_img.jpg") center center/cover no-repeat;
     height: 100vh;
@@ -45,18 +47,26 @@ span {
 }
 
 input {
-    width: 350px;
+    width: 400px;
     background: transparent;
+    color: white;
 }
 
 textarea {
     width: 750px;
     height: 300px;
     background: transparent;
+    color: white;
 }
 h4 {
     font-weight: bolder;
 }
+h5{
+    font-size: 17px;
+}
 ::placeholder{
     color: white;
+}
+.container{
+    font-size: 12px;
 }
