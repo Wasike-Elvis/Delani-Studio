@@ -58,15 +58,19 @@ textarea {
     background: transparent;
     color: white;
 }
+
 h4 {
     font-weight: bolder;
 }
-h5{
+
+h5 {
     font-size: 17px;
 }
-::placeholder{
+
+::placeholder {
     color: white;
 }
-.container{
+
+.container {
     font-size: 12px;
 }
