@@ -61,10 +61,12 @@ textarea {
 
 h4 {
     font-weight: bolder;
+    text-align: center;
 }
 
 h5 {
     font-size: 17px;
+    font-weight: bold;
 }
 
 ::placeholder {
@@ -73,4 +75,15 @@ h5 {
 
 .container {
     font-size: 12px;
+}
+.Footer{
+    text-align: center;
+}
+/*.container img{
+    margin-left: 55px;
+}*/
+.container{
+    margin-left: 60px;
+    text-align: center;
+    padding: 0 10px;
 }

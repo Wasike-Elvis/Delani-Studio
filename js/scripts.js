@@ -1,15 +1,16 @@
 $(document).ready(function() {
     $("#design").click(function(){
-      $("#hide-design").toggle();
+      $("#hideDesign").toggle();
     })
     $("#development").click(function(){
-      $("#hide-development").toggle();
+      $("#hideDevelopment").toggle();
     })
     $("#productManagement").click(function(){
-      $("#product-management").toggle();
+      $("#productManagementt").toggle();
     })
   })
   
   .hide;{
     display:none;
   }
+  
