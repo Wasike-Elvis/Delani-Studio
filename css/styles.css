@@ -1,4 +1,10 @@
+@IMPORT url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
 @IMPORT url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
 .slide1 {
     background: url("../IP3-master/assets/backgrounds/h_img.jpg") center center/cover no-repeat;
     height: 100vh;
@@ -24,42 +30,54 @@ span {
     height: 100vh;
     padding-top: 50px;
 }
+
+.hide {
+    display: none;
+}
+
 #portfolio img {
     width: 100%;
 }
+
 .card {
     margin: 10px 0;
     position: relative;
     overflow: hidden;
 }
+
 .card:hover img {
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
+
 .card-1 {
     position: absolute;
-    width: 100%;
-    min-height: 100%;
-    background: rgba(0, 0, 0, 0.582);
     cursor: pointer;
-    display: none;
+    min-height: 100%;
     transition: all 0.5s ease;
+    ;
+    background: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    display: none;
 }
+
 .ptag {
     padding: 5% 0;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: #0000004d;
     padding: 50px 10px;
     font-weight: 100%;
+    font-family: 'Merienda', cursive;
+    line-height: 90%;
+    margin: 20% 5%;
     padding-top: 30px;
     border: 4px solid whitesmoke;
     font-size: 1.1em;
-    line-height: 90%;
-    margin: 20% 5%;
+    color: white;
     overflow: hidden;
     letter-spacing: 2px;
-    font-family: 'Merienda', cursive;
+
 }
+
 .Services {
     padding-top: 110px;
 }
@@ -100,16 +118,17 @@ h5 {
 }
 
 .container {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .Footer {
     text-align: center;
 }
 
-/*.container img{
+.container img {
     margin-left: 55px;
-}*/
+}
+
 .container {
     margin-left: 60px;
     text-align: center;

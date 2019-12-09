@@ -13,6 +13,6 @@ $(document).ready(function () {
     .hide; {
     display: none;
 }
-$(".PORTIFOLIO").hover(function () {
-    $(this).children(".card-1").fadeToggle(1000, "linear");
+$(".card").hover(function () {
+    $(document).ready(".card-1").fadeToggle(1000, "linear");
   });
