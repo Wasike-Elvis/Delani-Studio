@@ -17,17 +17,9 @@ $(document).ready(function () {
         },
         function(){4
             $(this).animate({opacity:'0'});
-            });
-        // $(".card").hover(function () {
-        //     $(document).ready(".card-1").fadeToggle(1000, "linear");
-        //   });
-        
-        
+            });    
     })
 
     .hide; {
     display: none;
 }
-$(".card").hover(function () {
-    $(document).ready(".card-1").fadeToggle(1000, "linear");
-  });
